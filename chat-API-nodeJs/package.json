@@ -1,0 +1,17 @@
+{
+  "name": "chat-api-nodejs",
+  "version": "1.0.0",
+  "description": "Chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarath kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "safe-buffer": "^5.2.0",
+    "ultron": "^1.1.1",
+    "ws": "^7.2.1"
+  }
+}
