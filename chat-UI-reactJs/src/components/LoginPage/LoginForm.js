@@ -34,10 +34,10 @@ class LoginForm extends Component {
         <Panel style={panelStyle}>
           <Form horizontal className="LoginForm" id="loginForm">
             <FormGroup controlId="formEmail">
-              <FormControl type="email" placeholder="Email Address" />
+              <FormControl type="email" value="user@example.com" placeholder="Email Address" />
             </FormGroup>
             <FormGroup controlId="formPassword">
-              <FormControl type="password" placeholder="Password" />
+              <FormControl type="password" placeholder="Password" value="qwerty" />
             </FormGroup>
             <FormGroup style={buttonStyle} controlId="formSubmit">
               <Button bsStyle="primary" type="submit" onClick={this.handleFormSubmit}>
