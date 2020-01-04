@@ -1,0 +1,25 @@
+.chatbox{
+    background-color: #f9627d;
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.messagebox {
+      width: 500px;
+      height: 200px;
+      overflow: auto;
+      border: 5px solid black;
+    }
+
+    input {
+      width: 500px;
+      height: 25px;
+    }
+
+    #btn {
+      width: 100px;
+      height: 40px;
+    }
