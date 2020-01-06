@@ -3,6 +3,9 @@ var app = express();
 var expressWs = require('express-ws')(app);
 var bodyParser = require('body-parser');
 var jwt = require('jsonwebtoken');
+var cors = require('cors')
+
+app.use(cors())
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
